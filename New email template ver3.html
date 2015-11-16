@@ -1,0 +1,2002 @@
+<html>
+  <head><meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <title>idealPrice</title>
+
+    <style type="text/css">
+      /* Client-specific Styles */
+      #outlook a {
+        padding: 0;
+      }
+      /* Force Outlook to provide a "view in browser" menu link. */
+      body {
+        width: 100% !important;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #F6F6F6;
+				font-family: Arial;
+      }
+      /* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
+      .ExternalClass {
+        width: 100%;
+      }
+      /* Force Hotmail to display emails at full width */
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      /* Force Hotmail to display normal line spacing.  */
+      #backgroundTable {
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+        line-height: 100% !important;
+      }
+      img {
+        outline: none;
+        text-decoration: none;
+        border: none;
+        -ms-interpolation-mode: bicubic;
+      }
+      a img {
+        border: none;
+      }
+      .image_fix {
+        display: block;
+      }
+      p {
+        margin-bottom: 0;
+        margin: 0 !important;
+      }
+      table td {
+        border-collapse: collapse;
+      }
+      table {
+        mso-table-lspace: 0;
+        mso-table-rspace: 0;
+      }
+      a {
+        color: #ffffff;
+        text-decoration: none;
+        text-decoration: none!important;
+      }
+      /*STYLES*/
+      table[class=full] {
+        width: 100%;
+        clear: both;
+      }
+      .deviceWidthdouble {
+        width: 130px!important;
+        padding: 0;
+      }
+      .deviceWidthmerch {
+        width: 120px!important;
+        padding: 0;
+      }
+      .deviceWidthdouble1 {
+        width: 130px!important;
+        padding: 0;
+      }
+      .deviceWidthdouble1 {
+        width: 130px!important;
+        padding: 0;
+      }
+      .deviceWidthmerch1 {
+        width: 120px!important;
+        padding: 0;
+      }
+      .deviceWidthmerch2 {
+        width: 120px!important;
+        padding: 0;
+      }
+      .deviceWidthmerch2 {
+        width: 120px!important;
+        padding: 0;
+      }
+      .deviceWidthmerch11 {
+        width: 120px!important;
+        padding: 0;
+      }
+      .deviceWidthmerch11 {
+        width: 120px!important;
+        padding: 0;
+      }
+      .socialPadding {
+        padding: 10px;
+      }
+      img {
+        display: block;
+      }
+      .box {
+        display: block;
+        line-height: -1px;
+      }
+      .box2 {
+        display: block;
+        align: right;
+      }
+
+      /*IPHONE STYLES*/
+      @media only screen and (max-width: 480px) {
+        a[href^="tel"],
+        a[href^="sms"] {
+          text-decoration: none;
+          color: #ffffff;
+          /* or whatever your want */
+          pointer-events: none;
+          cursor: default;
+        }
+        .mobile_link a[href^="tel"],
+        .mobile_link a[href^="sms"] {
+          text-decoration: default;
+          color: #ffffff !important;
+          pointer-events: auto;
+          cursor: default;
+        }
+        table[class=devicewidth] {
+          width: 300px!important;
+          text-align: center!important;
+        }
+        table[class=devicewidthnarrow] {
+          width: 280px!important;
+          text-align: center!important;
+        }
+        table[class=devicewidthsocial] {
+          width: 220px!important;
+          text-align: center!important;
+          margin: 0 30px;
+        }
+        td[class=devicewidth] {
+          width: 280px!important;
+          text-align: center!important;
+        }
+        img[class=devicewidth] {
+          width: 280px!important;
+          text-align: center!important;
+        }
+        img[class=banner] {
+          width: 300px!important;
+          height: 80px!important;
+        }
+        table[class=devicewidthinner] {
+          width: 260px!important;
+          text-align: center!important;
+        }
+        table[class=icontext] {
+          width: 186px!important;
+          text-align: center!important;
+        }
+        img[class=colimg3] {
+          width: 260px!important;
+          height: 345px!important;
+        }
+        img[class=colimg3-sq] {
+          width: 260px!important;
+          height: 260px!important;
+        }
+        img[class=colimg2] {
+          width: 280px!important;
+          height: 187px!important;
+        }
+        table[class=emhide] {
+          display: none!important;
+        }
+        tr[class=emhide] {
+          display: none!important;
+        }
+        .socialPadding {
+          padding: 10px 30px 0 0;
+        }
+        img[class=logo] {
+          width: 130px!important;
+        }
+        img {
+          display: block;
+        }
+      }
+      .link-header,
+      .link-header a {
+        font-weight: 400;
+        color: #4b4b4b;
+        text-decoration: none;
+      }
+      .link-footer,
+      .link-footer a {
+        font-size: 10px;
+        color: #4b4b4b;
+        font-family: 'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      }
+      .preheader {
+        display: none !important;
+        visibility: hidden;
+        opacity: 0;
+        color: transparent;
+        height: 0;
+        width: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      <span class="preheader" style="color:transparent; display:none !important; height:0; opacity:0; visibility:hidden; width:0">Hi [FIRSTNAME,fallback=there], we have some awesome deals on this week - up to 80% off!</span>
+    </p>
+
+    <!-- Start of HEADER -->
+    <table align="center" bgcolor="#ffffff" cellpadding="0" cellspacing="0" style="font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; border-top:4px solid #ffcb29;" width="100%">
+      <tbody>
+        <tr>
+          <td>
+            <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="devicewidth" height="110px" style="" width="600px">
+              <tbody>
+                <tr>
+                  <td style="padding:0;" valign="middle">
+
+                    <!-- Start of LOGO -->
+                    <table align="left" border="0" width="150">
+                      <tbody>
+                        <tr class="devicewidth">
+                          <td>
+                            <a href="http://idealprice.co.uk/?utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=IP%20logo&amp;utm_campaign=10112015" target="_blank" title="LOGO"><img alt="Logo" class="logo" src="http://sendy.asapcompare.com/uploads/logo-old.png" style="display: block; border: 0px solid; outline: none; text-decoration: none; padding: 0px;"/></a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!-- End of LOGO -->
+
+                    <!-- Start of SOCIALS -->
+
+                    <table align="right" border="0" cellpadding="0" cellspacing="0" style="margin-top:-2%;" width="150">
+                      <tbody>
+                        <tr>
+                          <td align="right" class="socialPadding">
+                            <span style="font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;line-height: 15px; font-size: 10px;">
+                              <span class="link-header" title="browser">
+                                <webversion>View message in a browser</webversion>
+                              </span>
+                            </span>
+                            <table cellpadding="0" cellspacing="0" style="padding:5px 5px 0 0;">
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    <a href="https://play.google.com/store/apps/details?id=com.compare.idealprice&amp;hl=en&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=GoogleAp&amp;utm_campaign=10112015" target="_blank" title="GooglePlay"><img alt="GooglePlay" src="http://sendy.asapcompare.com/uploads/gplay.png" style="display: block; border: 0px solid; outline: none; text-decoration: none; width: 24px; height: 24px;"/></a>
+                                  </td>
+                                  <td style="font-size:1px; line-height:1px;" width="5"><img alt="Space" src="http://sendy.asapcompare.com/uploads/spacer.png" width="5"/></td>
+                                  <td>
+                                    <a href="https://itunes.apple.com/app/id981098122?utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=AppleAp&amp;utm_campaign=10112015" target="_blank" title="Appstore"><img alt="Appstore" src="http://sendy.asapcompare.com/uploads/astore.png" style="display: block; border: 0px solid; outline: none; text-decoration: none; width: 24px; height: 24px;"/></a>
+                                  </td>
+                                  <td style="font-size:1px; line-height:1px;" width="5"><img alt="Space" src="http://sendy.asapcompare.com/uploads/spacer.png" width="5"/></td>
+                                  <td>
+                                    <a href="https://www.facebook.com/idealprice.co.uk?utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=FacebookHeader&amp;utm_campaign=10112015" target="_blank" title="facebook"><img alt="facebook" src="http://sendy.asapcompare.com/uploads/fb.png" style="display: block; border: 0px solid; outline: none; text-decoration: none; width: 24px; height: 24px;"/>
+                                    </a>
+                                  </td>
+                                  <td style="font-size:1px; line-height:1px;" width="5"><img alt="Space" src="http://sendy.asapcompare.com/uploads/spacer.png" width="5"/></td>
+                                  <td>
+                                    <a href="https://twitter.com/idealpriceuk?utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=TwitterHeader&amp;utm_campaign=10112015" target="_blank" title="twitter"><img alt="twitter" src="http://sendy.asapcompare.com/uploads/tw.png" style="display: block; border: 0px solid; outline: none; text-decoration: none; width: 24px; height: 24px;"/>
+                                    </a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!-- end of SOCIALS -->
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- END of HEADER -->
+
+    <!-- Start of Offer TITLE -->
+    <table align="center" bgcolor="#F6F6F6" border="0" cellpadding="0" cellspacing="0" id="backgroundTable10" style="font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-top:-2%; padding-bottom:15px;" width="49%">
+      <tbody>
+        <tr>
+          <td>
+            <table align="center" bgcolor="#F6F6F6" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="600">
+              <tbody>
+                <tr>
+                  <td>
+                    <!--Start of left column-->
+                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="299">
+                      <tbody>
+                        <tr>
+                          <td style="padding:0px;">
+                            <!--Start of Title Offer Image-->
+                            <table bgcolor="#F6F6F6" cellpadding="0" cellspacing="0" style="" width="299">
+                              <!-- START Title Offer IMG 299 x 243 -->
+                              <tbody>
+                                <tr>
+                                  <td bgcolor="#F6F6F6" style="position:relative;" width="100%">
+                                    <a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+
+                                      <img alt="SLOT 1" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" style="border-width: 0px; border-style: solid; width: 299px; height: 243px; background-color:#E1E1E1;"/>
+                                    </a>
+                                  </td>
+                                </tr>
+                                <!--End Title Offer IMG 299 x 243-->
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!-- end of left column -->
+
+                    <!-- start of right column -->
+                    <table align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="301">
+                      <tbody>
+                        <tr>
+                          <td style="padding:0px;">
+                            <!--start of D-O-T-W table-->
+                            <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" style="" width="301">
+                              <!--START D-O-T-W 301 x 243-->
+                              <tbody>
+                                <tr>
+                                  <td bgcolor="#ffdb03" style="position:relative;" width="100%">
+                                    <a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+Tab+4+SM-T230+7+Inch+1.2+Ghz+1.5+GB+8+GB+Android+Tablet+-+8GB.&amp;price=99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFRhYjAwMDQwMDBTTTAwMFQyMzAwMDA3MDAwSW5jaDAwMDEwMDAyMDAwR2h6MDAwMTAwMDUwMDBHQjAwMDgwMDBHQjAwMEFuZHJvaWQwMDBUYWJsZXQwMDAwMDAwMDA4R0IwMDAmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTE1MTQ1ODk2MTA5Nw%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product3&amp;utm_campaign=10112015" target="_blank">
+                                      <span class="box" style="border-width: 0px; border-style: solid; width: 301px; height: 243px;">
+
+                                        <h3 style="color:#000; text-align:center; font-family:Arial; padding-top:70px; padding-left:70px; padding-right:70px; margin:0px;/*makes sure centred vertically*/">Deals of the Week - Up to 80% Off</h3>
+
+                                        <p style="color:#000; text-align:center; font-size:12px;font-family:Arial;padding-top:10px; padding-left:15px; padding-right:15px;/*makes sure centred vertically*/">We love to bring you the best of the sales or items at great value. Don't miss out this week!</p>
+
+                                      </span>
+                                    </a>
+                                  </td>
+                                </tr>
+
+                              </tbody>
+                            </table>
+                            <!-- end of D-O-T-W table -->
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!-- end of right column -->
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--Start of offer table-->
+    <table bgcolor="#F6F6F6" border="0" cellpadding="0" cellspacing="0" id="backgroundTable10" style="font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;" width="100%">
+      <tbody>
+        <tr>
+          <td>
+            <table align="center" bgcolor="#F6F6F6" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="600">
+              <tbody>
+                <tr>
+                  <td>
+                    <!-- start of left column -->
+                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="285">
+                      <tbody>
+                        <tr>
+                          <td style="padding:0px;">
+
+                            <!-- start slot 2 -->
+
+                              <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" style="margin-bottom:0px;" width="285">
+
+                                <!-- START SLOT 2 IMG 285 x 140 -->
+                                <tbody>
+                                  <tr>
+                                    <td bgcolor="#ffffff" style="position:relative;" width="100%">
+
+																			<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+
+                                      <img alt="SLOT 2" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" style="border-width: 2px; border-style: solid; width: 285px; height: 140px; background-color:#E1E1E1; border-color:#ffffff;"/>
+																			</a>
+                                      <!--Start Slot 2 Value Tag-->
+
+                                      <!--End Slot 2 Value Tag-->
+                                    </td>
+                                  </tr>
+                                  <!-- End SLOT 2 IMG 285 x 140 -->
+
+                                  <!--Start slot 2 txt-->
+                                  <!-- START SLOT 2 Description -->
+                                  <tr>
+                                    <td align="center" width="100%">
+																			<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                      <span class="box" style="display:block;font-family:Arial;font-size:14px;line-height:30px; text-align:left; padding-left:10px;color:#4b4b4b;">iPad Mini 16GB WiFi</span>
+																			</a>
+                                    </td>
+                                  </tr>
+                                  <!--End slot 2 Description-->
+
+                                  <!--Start Slot 2 Price-->
+                                  <tr>
+                                    <td align="center" width="100%">
+																			<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                      <span class="box" style="display:block;font-family:Arial;font-size:16px;line-height:10px; text-align:left; padding-left:10px; color:#CD1314; font-weight:bold;">&pound;199.99</span>
+																			</a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td align="right" width="100%">
+																			<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                      <span class="box2" style="background-color:#D01317; font-family:Arial; font-size:12px; line-height:20px; text-align:center; padding-left:5px; padding-right:5px; color:#ffffff; width:80px; align:right;">#1 Best Seller</span>
+																			</a>
+                                    </td>
+                                  </tr>
+                                  <!--END Price-->
+                                  <!-- END SLOT 2 TXT -->
+                                </tbody>
+                              </table>
+
+                            <!--End Slot 2-->
+
+                            <table bgcolor="#f6f6f6" cellpadding="0" cellspacing="0" width="285">
+                              <!-- Spacing -->
+                              <tbody>
+                                <tr>
+                                  <td bgcolor="#f6f6f6" height="30px" width="100%"><img alt="Space" height="3" src="http://sendy.asapcompare.com/uploads/spacer.png" width="298"/></td>
+                                </tr>
+                                <!-- Spacing -->
+                              </tbody>
+                            </table>
+
+                            <!--Start Slot 3-->
+                              <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" width="285">
+
+                                <!-- START SLOT 3 IMG 285 x 140 -->
+                                <tbody>
+                                  <tr>
+                                    <td bgcolor="#ffffff" style="position:relative;" width="100%">
+																			<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                      <img alt="SLOT 3" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" style="border-width: 2px; border-style: solid; width: 285px; height: 140px; background-color:#E1E1E1; border-color:#ffffff;"/>
+																			</a>
+                                      <!--Start Slot 3 Value Tag-->
+
+                                      <!--End Slot 3 Value Tag-->
+                                    </td>
+                                  </tr>
+                                  <!-- End SLOT 3 IMG 285 x 140 -->
+
+                                  <!-- START SLOT 3 TXT -->
+                                  <!--Start slot 3 description-->
+                                  <tr>
+                                    <td align="center" width="100%">
+																			<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                      <span class="box" style="display:block;font-size:14px;line-height:30px; text-align:left; padding-left:10px; font-family:Arial; color:#4b4b4b;">Samsung Galaxy SIII</span>
+																			</a>
+                                    </td>
+                                  </tr>
+                                  <!--End Slot 3 description-->
+
+                                  <!--Start Slot 3 Price-->
+                                  <tr>
+                                    <td align="center" width="100%">
+																			<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                      <span class="box" style="display:block;font-size:16px;line-height:10px; text-align:left; padding-left:10px;font-family:Arial; font-weight:bold; color:#CD1314;">&pound;89.99</span>
+																			</a>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td align="right" width="100%">
+																			<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                      <span class="box2" style="background-color:#D01317; font-family:Arial; font-size:12px; line-height:20px; text-align:center; padding-left:5px; padding-right:5px; color:#ffffff; width:80px; align:right;">#1 Best Seller</span>
+																			</a>
+                                    </td>
+                                  </tr>
+                                  <!--END Slot 3 Price-->
+                                </td>
+                              </td>
+                            </a>
+                          </td>
+                        </tr>
+                        <!-- END SLOT 3 TXT -->
+                      </tbody>
+                    </table>
+
+                    <table bgcolor="#f6f6f6" cellpadding="0" cellspacing="0" width="285">
+                      <!-- Spacing -->
+                      <tbody>
+                        <tr>
+                          <td bgcolor="#f6f6f6" height="30px" width="100%"><img alt="Space" height="3" src="http://sendy.asapcompare.com/uploads/spacer.png" width="285"/></td>
+                        </tr>
+                        <!-- Spacing -->
+                      </tbody>
+                    </table>
+                  </a>
+                  <!-- end of deal table -->
+
+                </tbody>
+              </table>
+              <!-- end of left column -->
+
+              <!-- start of right column -->
+              <table align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="285">
+                <tbody>
+                  <tr>
+                    <td style="padding:0px;">
+
+                      <!-- start slot 4 -->
+                        <table align="right" bgcolor="#ffffff" cellpadding="0" cellspacing="0" width="285">
+
+                          <!-- START SLOT 4 IMG 285 x 140 -->
+                          <tbody>
+                            <tr>
+                              <td bgcolor="#ffffff" style="position:relative;" width="100%">
+
+																<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                <img alt="SLOT 4" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" style="border-width: 2px; border-style: solid; width: 285px; height: 140px; background-color:#E1E1E1; border-color:#ffffff;"/>
+																</a>
+
+                                <!--Start Slot 4 Value Tag-->
+
+                                <!--End Slot 4 Value Tag-->
+                              </td>
+                            </tr>
+                            <!-- End SLOT 4 IMG 285 x 140 -->
+
+                            <!-- START SLOT 4 TXT -->
+                            <!--Start Slot 4 Description-->
+                            <tr>
+                              <td align="center" width="100%">
+																<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                <span class="box" style="display:block;font-family:Arial;font-size:14px;line-height:30px; text-align:left; padding-left:10px;color:#4b4b4b;">iPad Mini 16GB WiFi</span>
+																</a>
+                              </td>
+                            </tr>
+                            <!--End Slot 4 Description-->
+
+                            <!--Start Slot 4 Price-->
+                            <tr>
+                              <td align="center" width="100%">
+																<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                <span class="box" style="display:block;font-family:Arial;font-size:16px;line-height:10px; text-align:left; padding-left:10px; color:#CD1314; font-weight:bold;">&pound;199.99</span>
+																</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="right" width="100%">
+																<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                <span class="box2" style="background-color:#D01317; font-family:Arial; font-size:12px; line-height:20px; text-align:center; padding-left:5px; padding-right:5px; color:#ffffff; width:80px; align:right;">#1 Best Seller</span>
+																</a>
+                              </td>
+                            </tr>
+                            <!--END Slot 4 Price-->
+                            <!-- END SLOT 4 TXT -->
+
+                          </tbody>
+                        </table>
+                      </a>
+                      <!--End Slot 4-->
+
+                      <table bgcolor="#f6f6f6" cellpadding="0" cellspacing="0" width="285">
+                        <!-- Spacing -->
+                        <tbody>
+                          <tr>
+                            <td bgcolor="#f6f6f6" height="30px" width="100%"><img alt="Space" height="3" src="http://sendy.asapcompare.com/uploads/spacer.png" width="285"/></td>
+                          </tr>
+                          <!-- Spacing -->
+                        </tbody>
+                      </table>
+
+                      <!--Start Slot 5-->
+                        <table align="right" bgcolor="#ffffff" cellpadding="0" cellspacing="0" width="285">
+
+                          <!-- START SLOT 5 IMG 285 x 140 -->
+                          <tbody>
+                            <tr>
+                              <td bgcolor="#ffffff" style="position:relative;" width="100%">
+																<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                <img alt="SLOT 5" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" style="border-width: 2px; border-style: solid; width: 285px; height: 140px; background-color:#E1E1E1; border-color:#ffffff;"/>
+															 </a>
+
+                                <!--Start Slot 5 Value Tag-->
+
+                                <!--End Slot 5 Value Tag-->
+                              </td>
+                            </tr>
+                            <!-- End SLOT 5 IMG 285 x 140 -->
+
+                            <!-- START SLOT 5 TXT -->
+                            <!--Start slot 5 Description-->
+                            <tr>
+                              <td align="center" width="100%">
+                                <span class="box" style="display:block;font-size:14px;line-height:30px; text-align:left; padding-left:10px; font-family:Arial; color:#4b4b4b;">Samsung Galaxy SIII</span>
+                              </td>
+                            </tr>
+
+                            <!--Start slot 5 Price-->
+                            <tr>
+                              <td align="center" width="100%">
+																<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                <span class="box" style="display:block;font-size:16px;line-height:10px; text-align:left; padding-left:10px;font-family:Arial; font-weight:bold; color:#CD1314;">&pound;89.99</span>
+															</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="right" width="100%">
+																<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                <span class="box2" style="background-color:#D01317; font-family:Arial; font-size:12px; line-height:20px; text-align:center; padding-left:5px; padding-right:5px; color:#ffffff; width:80px; align:right;">#1 Best Seller</span>
+															</a>
+                              </td>
+                            </tr>
+                            <!--END slot 5 Price-->
+                            <!-- END SLOT 5 TXT -->
+
+                          </tbody>
+                        </table>
+                      </a>
+
+                      <table bgcolor="#f6f6f6" cellpadding="0" cellspacing="0" width="285">
+                        <!-- Spacing -->
+                        <tbody>
+                          <tr>
+                            <td bgcolor="#f6f6f6" height="30px" width="100%"><img alt="Space" height="3" src="http://sendy.asapcompare.com/uploads/spacer.png" width="285"/></td>
+                          </tr>
+                          <!-- Spacing -->
+                        </tbody>
+                      </table>
+
+                      <!-- end of deal table -->
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- end of right column -->
+
+              <table bgcolor="#F6F6F6" border="0" cellpadding="0" cellspacing="0" id="backgroundTable10" style="font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;" width="100%">
+                <tbody>
+                  <tr>
+                    <td>
+                      <table align="center" bgcolor="#F6F6F6" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="600">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <!-- start of left column -->
+                              <table align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="285">
+                                <tbody>
+                                  <tr>
+                                    <td style="padding:0px;">
+
+                                      <!-- start slot 6 -->
+                                        <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" style="" width="285">
+
+                                          <!-- START SLOT 6 IMG 285 x 140 -->
+                                          <tbody>
+                                            <tr>
+                                              <td bgcolor="#ffffff" style="position:relative;" width="100%">
+																								<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                <img alt="SLOT 6" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" style="border-width: 2px; border-style: solid; width: 285px; height: 140px; background-color:#E1E1E1; border-color:#ffffff;"/>
+																							</a>
+                                                <!--Start Slot 6 Value Tag-->
+
+                                                <!--End Slot 6 Value Tag-->
+                                              </td>
+                                            </tr>
+                                            <!-- End SLOT 6 IMG 285 x 140 -->
+
+                                            <!--Start Slot 6 txt-->
+                                            <!-- START SLOT 6 Description -->
+                                            <tr>
+                                              <td align="center" width="100%">
+																								<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                <span class="box" style="display:block;font-family:Arial;font-size:14px;line-height:30px; text-align:left; padding-left:10px;color:#4b4b4b;">iPad Mini 16GB WiFi</span>
+																							</a>
+                                              </td>
+                                            </tr>
+                                            <!--End slot 6 Description-->
+
+                                            <!--Start Slot 6 Price-->
+                                            <tr>
+                                              <td align="center" width="100%">
+																								<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                <span class="box" style="display:block;font-family:Arial;font-size:16px;line-height:10px; text-align:left; padding-left:10px; color:#CD1314; font-weight:bold;">&pound;199.99</span>
+																							</a>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="right" width="100%">
+																								<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                <span class="box2" style="background-color:#D01317; font-family:Arial;font-size:12px; line-height:20px; text-align:center; padding-left:5px; padding-right:5px; color:#ffffff; width:80px; align:right;">#1 Best Seller</span>
+																							</a>
+                                              </td>
+                                            </tr>
+                                            <!--END Slot 6 Price-->
+                                            <!-- END SLOT 6 TXT -->
+                                          </tbody>
+                                        </table>
+                                      </a>
+                                      <!--End Slot 6-->
+
+                                      <table bgcolor="#f6f6f6" cellpadding="0" cellspacing="0" width="285">
+                                        <!-- Spacing -->
+                                        <tbody>
+                                          <tr>
+                                            <td bgcolor="#f6f6f6" height="30px" width="100%"><img alt="Space" height="3" src="http://sendy.asapcompare.com/uploads/spacer.png" width="285"/></td>
+                                          </tr>
+                                          <!-- Spacing -->
+                                        </tbody>
+                                      </table>
+
+                                      <!--Start Slot 7-->
+                                        <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" style="" width="285">
+
+                                          <!-- START SLOT 7 IMG 285 x 140 -->
+                                          <tbody>
+                                            <tr>
+                                              <td bgcolor="#ffffff" style="position:relative;" width="100%">
+																								<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                <img alt="SLOT 7" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" style="border-width: 2px; border-style: solid; width: 285px; height: 140px; background-color:#E1E1E1; border-color:#ffffff;"/>
+																							</a>
+                                                <!--Start Slot 7 Value Tag-->
+
+                                                <!--End Slot 7 Value Tag-->
+                                              </td>
+                                            </tr>
+                                            <!-- End SLOT 7 IMG 285 x 140 -->
+
+                                            <!-- START SLOT 7 TXT -->
+                                            <!--Start slot 7 description-->
+                                            <tr>
+                                              <td align="center" width="100%">
+																								<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                <span class="box" style="display:block;font-size:14px;line-height:30px; text-align:left; padding-left:10px; font-family:Arial; color:#4b4b4b;">Samsung Galaxy SIII</span>
+																							</a>
+                                              </td>
+                                            </tr>
+                                            <!--End Slot 7 description-->
+
+                                            <!--Start Slot 7 Price-->
+                                            <tr>
+                                              <td align="center" width="100%">
+																								<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                <span class="box" style="display:block;font-size:16px;line-height:10px; text-align:left; padding-left:10px;font-family:Arial; font-weight:bold; color:#CD1314;">&pound;89.99</span>
+																							</a>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td align="right" width="100%">
+																								<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                <span class="box2" style="background-color:#D01317; font-family:Arial;font-size:12px; line-height:20px; text-align:center; padding-left:5px; padding-right:5px; color:#ffffff; width:80px; align:right;">#1 Best Seller</span>
+																							</a>
+                                              </td>
+                                            </tr>
+                                            <!--END Slot 7 Price-->
+                                          </td>
+                                        </tr>
+                                        <!-- END SLOT 7 TXT -->
+                                      </tbody>
+                                    </table>
+                                  </a>
+
+                                  <table bgcolor="#f6f6f6" cellpadding="0" cellspacing="0" width="285">
+                                    <!-- Spacing -->
+                                    <tbody>
+                                      <tr>
+                                        <td bgcolor="#f6f6f6" height="30px" width="100%"><img alt="Space" height="3" src="http://sendy.asapcompare.com/uploads/spacer.png" width="285"/></td>
+                                      </tr>
+                                      <!-- Spacing -->
+                                    </tbody>
+                                  </table>
+
+                                  <!-- end of deal table -->
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <!-- end of left column -->
+
+                          <!-- start of right column -->
+                          <table align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="285">
+                            <tbody>
+                              <tr>
+                                <td style="padding:0px;">
+
+                                  <!-- start slot 8 -->
+                                    <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" style="" width="285">
+
+                                      <!-- START SLOT 8 IMG 285 x 140 -->
+                                      <tbody>
+                                        <tr>
+                                          <td bgcolor="#ffffff" style="position:relative;" width="100%">
+																						<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                            <img alt="SLOT 8" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" style="border-width: 2px; border-style: solid; width: 285px; height: 140px; background-color:#E1E1E1; border-color:#ffffff;"/>
+																					</a>
+
+                                            <!--Start Slot 8 Value Tag-->
+
+                                            <!--End Slot 8 Value Tag-->
+                                          </td>
+                                        </tr>
+                                        <!-- End SLOT 8 IMG 285 x 140 -->
+
+                                        <!-- START SLOT 8 TXT -->
+                                        <!--Start Slot 8 Description-->
+                                        <tr>
+                                          <td align="center" width="100%">
+																						<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                            <span class="box" style="display:block;font-family:Arial;font-size:14px;line-height:30px; text-align:left; padding-left:10px;color:#4b4b4b;">iPad Mini 16GB WiFi</span>
+																					</a>
+                                          </td>
+                                        </tr>
+                                        <!--End Slot 8 Description-->
+
+                                        <!--Start Slot 8 Price-->
+                                        <tr>
+                                          <td align="center" width="100%">
+																						<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                            <span class="box" style="display:block;font-family:Arial;font-size:16px;line-height:10px; text-align:left; padding-left:10px; color:#CD1314; font-weight:bold;">&pound;199.99</span>
+																					</a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td align="right" width="100%">
+																						<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                            <span class="box2" style="background-color:#D01317; font-family:Arial; font-size:12px; line-height:20px; text-align:center; padding-left:5px; padding-right:5px; color:#ffffff; width:80px; align:right;">#1 Best Seller</span>
+																					</a>
+                                          </td>
+                                        </tr>
+                                        <!--END Slot 8 Price-->
+                                        <!-- END SLOT 8 TXT -->
+
+                                      </tbody>
+                                    </table>
+                                  </a>
+
+                                  <table bgcolor="#f6f6f6" cellpadding="0" cellspacing="0" width="285">
+                                    <!-- Spacing -->
+                                    <tbody>
+                                      <tr>
+                                        <td bgcolor="#f6f6f6" height="30px" width="100%"><img alt="Space" height="3" src="http://sendy.asapcompare.com/uploads/spacer.png" width="285"/></td>
+                                      </tr>
+                                      <!-- Spacing -->
+                                    </tbody>
+                                  </table>
+
+                                  <!--Start Slot 9-->
+                                    <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" style="" width="285">
+
+                                      <!-- START SLOT 9 IMG 285 x 140 -->
+                                      <tbody>
+                                        <tr>
+                                          <td bgcolor="#ffffff" style="position:relative;" width="100%">
+																						<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                            <img alt="SLOT 9" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" style="border-width: 2px; border-style: solid; width: 285px; height: 140px; background-color:#E1E1E1; border-color:#ffffff;"/>
+																					</a>
+
+                                            <!--Start Slot 9 Value Tag-->
+
+                                            <!--End Slot 9 Value Tag-->
+                                          </td>
+                                        </tr>
+                                        <!-- End SLOT 9 IMG 285 x 140 -->
+
+                                        <!-- START SLOT 9 TXT -->
+                                        <!--Start slot 9 Description-->
+                                        <tr>
+                                          <td align="center" width="100%">
+																						<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                            <span class="box" style="display:block;font-size:14px;line-height:30px; text-align:left; padding-left:10px; font-family:Arial; color:#4b4b4b;">Samsung Galaxy SIII</span>
+																					</a>
+                                          </td>
+                                        </tr>
+
+                                        <!--Start slot 9 Price-->
+                                        <tr>
+                                          <td align="center" width="100%">
+																						<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                            <span class="box" style="display:block;font-size:16px;line-height:10px; text-align:left; padding-left:10px;font-family:Arial; font-weight:bold; color:#CD1314;">&pound;89.99</span>
+																					</a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td align="right" width="100%">
+																						<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                            <span class="box2" style="background-color:#D01317; font-family:Arial; font-size:12px; line-height:20px; text-align:center; padding-left:5px; padding-right:5px; color:#ffffff; width:80px; align:right;">#1 Best Seller</span>
+																					</a>
+                                          </td>
+                                        </tr>
+                                        <!--END slot 9 Price-->
+                                        <!-- END SLOT 9 TXT -->
+
+                                      </tbody>
+                                    </table>
+                                  </a>
+
+                                  <table bgcolor="#f6f6f6" cellpadding="0" cellspacing="0" width="285">
+                                    <!-- Spacing -->
+                                    <tbody>
+                                      <tr>
+                                        <td bgcolor="#f6f6f6" height="30px" width="100%"><img alt="Space" height="3" src="http://sendy.asapcompare.com/uploads/spacer.png" width="285"/></td>
+                                      </tr>
+                                      <!-- Spacing -->
+                                    </tbody>
+                                  </table>
+
+                                  <!-- end of deal table -->
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <!-- end of right column -->
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <table bgcolor="#F6F6F6" border="0" cellpadding="0" cellspacing="0" id="backgroundTable10" style="font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;" width="100%">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <table align="center" bgcolor="#F6F6F6" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="600">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <!-- start of left column -->
+                                  <table align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="285">
+                                    <tbody>
+                                      <tr>
+                                        <td style="padding:0px;">
+
+                                          <!-- start slot 10 -->
+                                            <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" style="" width="285">
+
+                                              <!-- START SLOT 10 IMG 285 x 140 -->
+                                              <tbody>
+                                                <tr>
+                                                  <td bgcolor="#ffffff" style="position:relative;" width="100%">
+																										<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                    <img alt="SLOT 10" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" style="border-width: 2px; border-style: solid; width: 285px; height: 140px; background-color:#E1E1E1; border-color:#ffffff;"/>
+																									</a>
+                                                    <!--Start Slot 10 Value Tag-->
+
+                                                    <!--End Slot 10 Value Tag-->
+                                                  </td>
+                                                </tr>
+                                                <!-- End SLOT 10 IMG 285 x 140 -->
+
+                                                <!--Start Slot 10 txt-->
+                                                <!-- START SLOT 10 Description -->
+                                                <tr>
+                                                  <td align="center" width="100%">
+																										<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                    <span class="box" style="display:block;font-family:Arial;font-size:14px;line-height:30px; text-align:left; padding-left:10px;color:#4b4b4b;">iPad Mini 16GB WiFi</span>
+																									</a>
+                                                  </td>
+                                                </tr>
+                                                <!--End slot 10 Description-->
+
+                                                <!--Start Slot 10 Price-->
+                                                <tr>
+                                                  <td align="center" width="100%">
+																										<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                    <span class="box" style="display:block;font-family:Arial;font-size:16px;line-height:10px; text-align:left; padding-left:10px; color:#CD1314; font-weight:bold;">&pound;199.99</span>
+																									</a>
+                                                  </td>
+                                                </tr>
+                                                <tr>
+                                                  <td align="right" width="100%">
+																										<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                    <span class="box2" style="background-color:#D01317;  font-family:Arial; font-size:12px; line-height:20px; text-align:center; padding-left:5px; padding-right:5px; color:#ffffff; width:80px; align:right;">#1 Best Seller</span>
+																									</a>
+                                                  </td>
+                                                </tr>
+                                                <!--END Slot 10 Price-->
+                                                <!-- END SLOT 10 TXT -->
+                                              </tbody>
+                                            </table>
+                                          </a>
+                                          <!--End Slot 10-->
+
+                                          <table bgcolor="#f6f6f6" cellpadding="0" cellspacing="0" width="285">
+                                            <!-- Spacing -->
+                                            <tbody>
+                                              <tr>
+                                                <td bgcolor="#f6f6f6" height="30px" width="100%"><img alt="Space" height="3" src="http://sendy.asapcompare.com/uploads/spacer.png" width="285"/></td>
+                                              </tr>
+                                              <!-- Spacing -->
+                                            </tbody>
+                                          </table>
+
+                                          <!--Start Slot 11-->
+                                            <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" style="" width="285">
+
+                                              <!-- START SLOT 11 IMG 285 x 140 -->
+                                              <tbody>
+                                                <tr>
+                                                  <td bgcolor="#ffffff" style="position:relative;" width="100%">
+																										<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                    <img alt="SLOT 11" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" style="border-width: 2px; border-style: solid; width: 285px; height: 140px; background-color:#E1E1E1; border-color:#ffffff;"/>
+																									</a>
+                                                    <!--Start Slot 11 Value Tag-->
+
+                                                    <!--End Slot 11 Value Tag-->
+                                                  </td>
+                                                </tr>
+                                                <!-- End SLOT 11 IMG 285 x 140 -->
+
+                                                <!-- START SLOT 11 TXT -->
+                                                <!--Start slot 11 description-->
+                                                <tr>
+                                                  <td align="center" width="100%">
+																										<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                    <span class="box" style="display:block;font-size:14px;line-height:30px; text-align:left; padding-left:10px; font-family:Arial; color:#4b4b4b;">Samsung Galaxy SIII</span>
+																									</a>
+                                                  </td>
+                                                </tr>
+                                                <!--End Slot 11 description-->
+
+                                                <!--Start Slot 11 Price-->
+                                                <tr>
+                                                  <td align="center" width="100%">
+																										<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                    <span class="box" style="display:block;font-size:16px;line-height:10px; text-align:left; padding-left:10px;font-family:Arial; font-weight:bold; color:#CD1314;">&pound;89.99</span>
+																									</a>
+                                                  </td>
+                                                </tr>
+                                                <tr>
+                                                  <td align="right" width="100%">
+																										<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                    <span class="box2" style="background-color:#D01317;  font-family:Arial; font-size:12px; line-height:20px; text-align:center; padding-left:5px; padding-right:5px; color:#ffffff; width:80px; align:right;">#1 Best Seller</span>
+																									</a>
+                                                  </td>
+                                                </tr>
+                                                <!--END Slot 11 Price-->
+                                              </td>
+                                            </tr>
+                                            <!-- END SLOT 11 TXT -->
+                                          </tbody>
+                                        </table>
+
+                                        <!-- end of deal table -->
+
+                                        <table bgcolor="#f6f6f6" cellpadding="0" cellspacing="0" width="285">
+                                          <!-- Spacing -->
+                                          <tbody>
+                                            <tr>
+                                              <td bgcolor="#f6f6f6" height="30px" width="100%"><img alt="Space" height="3" src="http://sendy.asapcompare.com/uploads/spacer.png" width="285"/></td>
+                                            </tr>
+                                            <!-- Spacing -->
+                                          </tbody>
+                                        </table>
+
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <!-- end of left column -->
+
+                                <!-- start of right column -->
+                                <table align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="285">
+                                  <tbody>
+                                    <tr>
+                                      <td style="padding:0px;">
+
+                                        <!-- start slot 12 -->
+                                          <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" style="" width="285">
+
+                                            <!-- START SLOT 12 IMG 285 x 140 -->
+                                            <tbody>
+                                              <tr>
+                                                <td bgcolor="#ffffff" style="position:relative;" width="100%">
+																									<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                  <img alt="SLOT 12" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" style="border-width: 2px; border-style: solid; width: 285px; height: 140px; background-color:#E1E1E1; border-color:#ffffff;"/>
+																								</a>
+
+                                                  <!--Start Slot 12 Value Tag-->
+
+                                                  <!--End Slot 12 Value Tag-->
+                                                </td>
+                                              </tr>
+                                              <!-- End SLOT 12 IMG 285 x 140 -->
+
+                                              <!-- START SLOT 12 TXT -->
+                                              <!--Start Slot 12 Description-->
+                                              <tr>
+                                                <td align="center" width="100%">
+																									<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                  <span class="box" style="display:block;font-family:Arial;font-size:14px;line-height:30px; text-align:left; padding-left:10px;color:#4b4b4b;">iPad Mini 16GB WiFi</span>
+																								</a>
+                                                </td>
+                                              </tr>
+                                              <!--End Slot 12 Description-->
+
+                                              <!--Start Slot 12 Price-->
+                                              <tr>
+                                                <td align="center" width="100%">
+																									<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                  <span class="box" style="display:block;font-family:Arial;font-size:16px;line-height:10px; text-align:left; padding-left:10px; color:#CD1314; font-weight:bold;">&pound;199.99</span>
+																								</a>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td align="right" width="100%">
+																									<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                  <span class="box2" style="background-color:#D01317;  font-family:Arial; font-size:12px; line-height:20px; text-align:center; padding-left:5px; padding-right:5px; color:#ffffff; width:80px; align:right;">#1 Best Seller</span>
+																								</a>
+                                                </td>
+                                              </tr>
+                                              <!--END Slot 12 Price-->
+                                              <!-- END SLOT 12 TXT -->
+
+                                            </tbody>
+                                          </table>
+                                        </a>
+
+                                        <table bgcolor="#f6f6f6" cellpadding="0" cellspacing="0" width="285">
+                                          <!-- Spacing -->
+                                          <tbody>
+                                            <tr>
+                                              <td bgcolor="#f6f6f6" height="30px" width="100%"><img alt="Space" height="3" src="http://sendy.asapcompare.com/uploads/spacer.png" width="285"/></td>
+                                            </tr>
+                                            <!-- Spacing -->
+                                          </tbody>
+                                        </table>
+
+                                        <!--Start Slot 13-->
+                                          <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" style="" width="285">
+
+                                            <!-- START SLOT 13 IMG 285 x 140 -->
+                                            <tbody>
+                                              <tr>
+                                                <td bgcolor="#ffffff" style="position:relative;" width="100%">
+																									<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                  <img alt="SLOT 13" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" style="border-width: 2px; border-style: solid; width: 285px; height: 140px; background-color:#E1E1E1; border-color:#ffffff;"/>
+																								</a>
+
+                                                  <!--Start Slot 13 Value Tag-->
+
+                                                  <!--End Slot 13 Value Tag-->
+                                                </td>
+                                              </tr>
+                                              <!-- End SLOT 13 IMG 285 x 140 -->
+
+                                              <!-- START SLOT 13 TXT -->
+                                              <!--Start slot 13 Description-->
+                                              <tr>
+                                                <td align="center" width="100%">
+																									<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                  <span class="box" style="display:block;font-size:14px;line-height:30px; text-align:left; padding-left:10px; font-family:Arial; color:#4b4b4b;">Samsung Galaxy SIII</span>
+																								</a>
+                                                </td>
+                                              </tr>
+
+                                              <!--Start slot 13 Price-->
+                                              <tr>
+                                                <td align="center" width="100%">
+																									<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                  <span class="box" style="display:block;font-size:16px;line-height:10px; text-align:left; padding-left:10px;font-family:Arial; font-weight:bold; color:#CD1314;">&pound;89.99</span>
+																								</a>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td align="right" width="100%">
+																									<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                  <span class="box2" style="background-color:#D01317; font-family:Arial; font-size:12px; line-height:20px; text-align:center; padding-left:5px; padding-right:5px; color:#ffffff; width:80px; align:right;">#1 Best Seller</span>
+																								</a>
+                                                </td>
+                                              </tr>
+                                              <!--END slot 13 Price-->
+                                              <!-- END SLOT 13 TXT -->
+
+                                            </tbody>
+                                          </table>
+                                        </a>
+                                        <!-- end of deal table -->
+
+                                        <table bgcolor="#f6f6f6" cellpadding="0" cellspacing="0" width="285">
+                                          <!-- Spacing -->
+                                          <tbody>
+                                            <tr>
+                                              <td bgcolor="#f6f6f6" height="30px" width="100%"><img alt="Space" height="3" src="http://sendy.asapcompare.com/uploads/spacer.png" width="285"/></td>
+                                            </tr>
+                                            <!-- Spacing -->
+                                          </tbody>
+                                        </table>
+
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <!-- end of right column -->
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <table bgcolor="#F6F6F6" border="0" cellpadding="0" cellspacing="0" id="backgroundTable10" style="font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;" width="100%">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <table align="center" bgcolor="#F6F6F6" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="600">
+                                  <tbody>
+                                    <tr>
+                                      <td>
+                                        <!-- start of left column -->
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="285">
+                                          <tbody>
+                                            <tr>
+                                              <td style="padding:0px;">
+
+                                                <!-- start slot 14 -->
+                                                  <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" style="" width="285">
+
+                                                    <!-- START SLOT 14 IMG 285 x 140 -->
+                                                    <tbody>
+                                                      <tr>
+                                                        <td bgcolor="#ffffff" style="position:relative;" width="100%">
+																													<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                          <img alt="SLOT 14" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" style="border-width: 2px; border-style: solid; width: 285px; height: 140px; background-color:#E1E1E1; border-color:#ffffff;"/>
+																												</a>
+                                                          <!--Start Slot 14 Value Tag-->
+
+                                                          <!--End Slot 14 Value Tag-->
+                                                        </td>
+                                                      </tr>
+                                                      <!-- End SLOT 14 IMG 285 x 140 -->
+
+                                                      <!--Start Slot 14 txt-->
+                                                      <!-- START SLOT 14 Description -->
+                                                      <tr>
+                                                        <td align="center" width="100%">
+																													<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                          <span class="box" style="display:block;font-family:Arial;font-size:14px;line-height:30px; text-align:left; padding-left:10px;color:#4b4b4b;">iPad Mini 16GB WiFi</span>
+																												</a>
+                                                        </td>
+                                                      </tr>
+                                                      <!--End slot 14 Description-->
+
+                                                      <!--Start Slot 14 Price-->
+                                                      <tr>
+                                                        <td align="center" width="100%">
+																													<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                          <span class="box" style="display:block;font-family:Arial;font-size:16px;line-height:10px; text-align:left; padding-left:10px; color:#CD1314; font-weight:bold;">&pound;199.99</span>
+																												</a>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td align="right" width="100%">
+																													<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                          <span class="box2" style="background-color:#D01317; font-family:Arial;font-size:12px; line-height:20px; text-align:center; padding-left:5px; padding-right:5px; color:#ffffff; width:80px; align:right;">#1 Best Seller</span>
+																												</a>
+                                                        </td>
+                                                      </tr>
+                                                      <!--END Slot 14 Price-->
+                                                      <!-- END SLOT 14 TXT -->
+                                                    </tbody>
+                                                  </table>
+                                                </a>
+                                                <!--End Slot 14-->
+
+                                                <table bgcolor="#f6f6f6" cellpadding="0" cellspacing="0" width="285">
+                                                  <!-- Spacing -->
+                                                  <tbody>
+                                                    <tr>
+                                                      <td bgcolor="#f6f6f6" height="30px" width="100%"><img alt="Space" height="3" src="http://sendy.asapcompare.com/uploads/spacer.png" width="285"/></td>
+                                                    </tr>
+                                                    <!-- Spacing -->
+                                                  </tbody>
+                                                </table>
+
+                                                <!--Start Slot 15-->
+                                                  <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" style="" width="285">
+
+                                                    <!-- START SLOT 15 IMG 285 x 140 -->
+                                                    <tbody>
+                                                      <tr>
+                                                        <td bgcolor="#ffffff" style="position:relative;" width="100%">
+																													<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                          <img alt="SLOT 15" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" style="border-width: 2px; border-style: solid; width: 285px; height: 140px; background-color:#E1E1E1; border-color:#ffffff;"/>
+																												</a>
+                                                          <!--Start Slot 15 Value Tag-->
+
+                                                          <!--End Slot 15 Value Tag-->
+                                                        </td>
+                                                      </tr>
+                                                      <!-- End SLOT 15 IMG 285 x 140 -->
+
+                                                      <!-- START SLOT 15 TXT -->
+                                                      <!--Start slot 15 description-->
+                                                      <tr>
+                                                        <td align="center" width="100%">
+																													<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                          <span class="box" style="display:block;font-size:14px;line-height:30px; text-align:left; padding-left:10px; font-family:Arial; color:#4b4b4b;">Samsung Galaxy SIII</span>
+																												</a>
+                                                        </td>
+                                                      </tr>
+                                                      <!--End Slot 15 description-->
+
+                                                      <!--Start Slot 15 Price-->
+                                                      <tr>
+                                                        <td align="center" width="100%">
+																													<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                          <span class="box" style="display:block;font-size:16px;line-height:10px; text-align:left; padding-left:10px;font-family:Arial; font-weight:bold; color:#CD1314;">&pound;89.99</span>
+																												</a>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td align="right" width="100%">
+																													<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                          <span class="box2" style="background-color:#D01317; font-family:Arial;font-size:12px; line-height:20px; text-align:center; padding-left:5px; padding-right:5px; color:#ffffff; width:80px; align:right;">#1 Best Seller</span>
+																												</a>
+                                                        </td>
+                                                      </tr>
+                                                      <!--END Slot 15 Price-->
+                                                    </td>
+                                                  </tr>
+                                                  <!-- END SLOT 15 TXT -->
+                                                </tbody>
+                                              </table>
+                                            </a>
+                                            <!-- end of deal table -->
+
+                                            <table bgcolor="#f6f6f6" cellpadding="0" cellspacing="0" width="285">
+                                              <!-- Spacing -->
+                                              <tbody>
+                                                <tr>
+                                                  <td bgcolor="#f6f6f6" height="30px" width="100%"><img alt="Space" height="3" src="http://sendy.asapcompare.com/uploads/spacer.png" width="285"/></td>
+                                                </tr>
+                                                <!-- Spacing -->
+                                              </tbody>
+                                            </table>
+
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <!-- end of left column -->
+
+                                    <!-- start of right column -->
+                                    <table align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="285">
+                                      <tbody>
+                                        <tr>
+                                          <td style="padding:0px;">
+
+                                            <!-- start slot 16 -->
+                                              <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" style="" width="285">
+
+                                                <!-- START SLOT 16 IMG 285 x 140 -->
+                                                <tbody>
+                                                  <tr>
+                                                    <td bgcolor="#ffffff" style="position:relative;" width="100%">
+																											<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                      <img alt="SLOT 16" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" style="border-width: 2px; border-style: solid; width: 285px; height: 140px; background-color:#E1E1E1; border-color:#ffffff;"/>
+																										</a>
+
+                                                      <!--Start Slot 16 Value Tag-->
+
+                                                      <!--End Slot 16 Value Tag-->
+                                                    </td>
+                                                  </tr>
+                                                  <!-- End SLOT 16 IMG 285 x 140 -->
+
+                                                  <!-- START SLOT 16 TXT -->
+                                                  <!--Start Slot 16 Description-->
+                                                  <tr>
+                                                    <td align="center" width="100%">
+																											<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                      <span class="box" style="display:block;font-family:Arial;font-size:14px;line-height:30px; text-align:left; padding-left:10px;color:#4b4b4b;">iPad Mini 16GB WiFi</span>
+																										</a>
+                                                    </td>
+                                                  </tr>
+                                                  <!--End Slot 16 Description-->
+
+                                                  <!--Start Slot 16 Price-->
+                                                  <tr>
+                                                    <td align="center" width="100%">
+																											<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                      <span class="box" style="display:block;font-family:Arial;font-size:16px;line-height:10px; text-align:left; padding-left:10px; color:#CD1314; font-weight:bold;">&pound;199.99</span>
+																										</a>
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td align="right" width="100%">
+																											<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                      <span class="box2" style="background-color:#D01317; font-family:Arial;font-size:12px; line-height:20px; text-align:center; padding-left:5px; padding-right:5px; color:#ffffff; width:80px; align:right;">#1 Best Seller</span>
+																										</a>
+                                                    </td>
+                                                  </tr>
+                                                  <!--END Slot 16 Price-->
+                                                  <!-- END SLOT 16 TXT -->
+
+                                                </tbody>
+                                              </table>
+                                            </a>
+
+                                            <table bgcolor="#f6f6f6" cellpadding="0" cellspacing="0" width="285">
+                                              <!-- Spacing -->
+                                              <tbody>
+                                                <tr>
+                                                  <td bgcolor="#f6f6f6" height="30px" width="100%"><img alt="Space" height="3" src="http://sendy.asapcompare.com/uploads/spacer.png" width="285"/></td>
+                                                </tr>
+                                                <!-- Spacing -->
+                                              </tbody>
+                                            </table>
+
+                                            <!--Start Slot 17-->
+                                              <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" style="" width="285">
+
+                                                <!-- START SLOT 17 IMG 285 x 140 -->
+                                                <tbody>
+                                                  <tr>
+                                                    <td bgcolor="#ffffff" style="position:relative;" width="100%">
+																											<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                      <img alt="SLOT 17" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" style="border-width: 2px; border-style: solid; width: 285px; height: 140px; background-color:#E1E1E1; border-color:#ffffff;"/>
+																										</a>
+
+                                                      <!--Start Slot 17 Value Tag-->
+
+                                                      <!--End Slot 17 Value Tag-->
+                                                    </td>
+                                                  </tr>
+                                                  <!-- End SLOT 17 IMG 285 x 140 -->
+
+                                                  <!-- START SLOT 17 TXT -->
+                                                  <!--Start slot 17 Description-->
+                                                  <tr>
+                                                    <td align="center" width="100%">
+																											<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                      <span class="box" style="display:block;font-size:14px;line-height:30px; text-align:left; padding-left:10px; font-family:Arial; color:#4b4b4b;">Samsung Galaxy SIII</span>
+																										</a>
+                                                    </td>
+                                                  </tr>
+
+                                                  <!--Start slot 17 Price-->
+                                                  <tr>
+                                                    <td align="center" width="100%">
+																											<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                      <span class="box" style="display:block;font-size:16px;line-height:10px; text-align:left; padding-left:10px;font-family:Arial; font-weight:bold; color:#CD1314;">&pound;89.99</span>
+																										</a>
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td align="right" width="100%">
+																											<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                      <span class="box2" style="background-color:#D01317; font-family:Arial;font-size:12px; line-height:20px; text-align:center; padding-left:5px; padding-right:5px; color:#ffffff; width:80px; align:right;">#1 Best Seller</span>
+																										</a>
+                                                    </td>
+                                                  </tr>
+                                                  <!--END slot 17 Price-->
+                                                  <!-- END SLOT 17 TXT -->
+
+                                                </tbody>
+                                              </table>
+                                            </a>
+                                            <!-- end of deal table -->
+
+                                            <table bgcolor="#f6f6f6" cellpadding="0" cellspacing="0" width="285">
+                                              <!-- Spacing -->
+                                              <tbody>
+                                                <tr>
+                                                  <td bgcolor="#f6f6f6" height="30px" width="100%"><img alt="Space" height="3" src="http://sendy.asapcompare.com/uploads/spacer.png" width="285"/></td>
+                                                </tr>
+                                                <!-- Spacing -->
+                                              </tbody>
+                                            </table>
+
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <!-- end of right column -->
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                            <table bgcolor="#F6F6F6" border="0" cellpadding="0" cellspacing="0" id="backgroundTable10" style="font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    <table align="center" bgcolor="#F6F6F6" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="600">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <!-- start of left column -->
+                                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="285">
+                                              <tbody>
+                                                <tr>
+                                                  <td style="padding:0px;">
+
+                                                    <!-- start slot 18 -->
+                                                      <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" style="" width="285">
+
+                                                        <!-- START SLOT 18 IMG 285 x 140 -->
+                                                        <tbody>
+                                                          <tr>
+                                                            <td bgcolor="#ffffff" style="position:relative;" width="100%">
+																															<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                              <img alt="SLOT 18" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" style="border-width: 2px; border-style: solid; width: 285px; height: 140px; background-color:#E1E1E1; border-color:#ffffff;"/>
+																														</a>
+                                                              <!--Start Slot 18 Value Tag-->
+
+                                                              <!--End Slot 18 Value Tag-->
+                                                            </td>
+                                                          </tr>
+                                                          <!-- End SLOT 18 IMG 285 x 140 -->
+
+                                                          <!--Start Slot 18 txt-->
+                                                          <!-- START SLOT 18 Description -->
+                                                          <tr>
+                                                            <td align="center" width="100%">
+																															<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                              <span class="box" style="display:block;font-family:Arial;font-size:14px;line-height:30px; text-align:left; padding-left:10px;color:#4b4b4b;">iPad Mini 16GB WiFi</span>
+																														</a>
+                                                            </td>
+                                                          </tr>
+                                                          <!--End slot 18 Description-->
+
+                                                          <!--Start Slot 18 Price-->
+                                                          <tr>
+                                                            <td align="center" width="100%">
+																															<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                              <span class="box" style="display:block;font-family:Arial;font-size:16px;line-height:10px; text-align:left; padding-left:10px; color:#CD1314; font-weight:bold;">&pound;199.99</span>
+																														</a>
+                                                            </td>
+                                                          </tr>
+                                                          <tr>
+                                                            <td align="right" width="100%">
+																															<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                              <span class="box2" style="background-color:#D01317; font-family:Arial; font-size:12px; line-height:20px; text-align:center; padding-left:5px; padding-right:5px; color:#ffffff; width:80px; align:right;">#1 Best Seller</span>
+																														</a>
+                                                            </td>
+                                                          </tr>
+                                                          <!--END Slot 18 Price-->
+                                                          <!-- END SLOT 18 TXT -->
+                                                        </tbody>
+                                                      </table>
+                                                    </a>
+                                                    <!--End Slot 18-->
+
+                                                    <table bgcolor="#f6f6f6" cellpadding="0" cellspacing="0" width="285">
+                                                      <!-- Spacing -->
+                                                      <tbody>
+                                                        <tr>
+                                                          <td bgcolor="#f6f6f6" height="30px" width="100%"><img alt="Space" height="3" src="http://sendy.asapcompare.com/uploads/spacer.png" width="285"/></td>
+                                                        </tr>
+                                                        <!-- Spacing -->
+                                                      </tbody>
+                                                    </table>
+
+                                                    <!--Start Slot 19-->
+                                                      <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" style="" width="285">
+
+                                                        <!-- START SLOT 19 IMG 285 x 140 -->
+                                                        <tbody>
+                                                          <tr>
+                                                            <td bgcolor="#ffffff" style="position:relative;" width="100%">
+																															<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                              <img alt="SLOT 19" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" style="border-width: 2px; border-style: solid; width: 285px; height: 140px; background-color:#E1E1E1; border-color:#ffffff;"/>
+																														</a>
+                                                              <!--Start Slot 19 Value Tag-->
+
+                                                              <!--End Slot 19 Value Tag-->
+                                                            </td>
+                                                          </tr>
+                                                          <!-- End SLOT 19 IMG 285 x 140 -->
+
+                                                          <!-- START SLOT 19 TXT -->
+                                                          <!--Start slot 19 description-->
+                                                          <tr>
+                                                            <td align="center" width="100%">
+																															<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                              <span class="box" style="display:block;font-size:14px;line-height:30px; text-align:left; padding-left:10px; font-family:Arial; color:#4b4b4b;">Samsung Galaxy SIII</span>
+																														</a>
+                                                            </td>
+                                                          </tr>
+                                                          <!--End Slot 19 description-->
+
+                                                          <!--Start Slot 19 Price-->
+                                                          <tr>
+                                                            <td align="center" width="100%">
+																															<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                              <span class="box" style="display:block;font-size:16px;line-height:10px; text-align:left; padding-left:10px;font-family:Arial; font-weight:bold; color:#CD1314;">&pound;89.99</span>
+																														</a>
+                                                            </td>
+                                                          </tr>
+                                                          <tr>
+                                                            <td align="right" width="100%">
+																															<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                              <span class="box2" style="background-color:#D01317; font-family:Arial; font-size:12px; line-height:20px; text-align:center; padding-left:5px; padding-right:5px; color:#ffffff; width:80px; align:right;">#1 Best Seller</span>
+																														</a>
+                                                            </td>
+                                                          </tr>
+                                                          <!--END Slot 19 Price-->
+                                                        </td>
+                                                      </tr>
+                                                      <!-- END SLOT 19 TXT -->
+                                                    </tbody>
+                                                  </table>
+                                                </a>
+                                                <!-- end of deal table -->
+
+                                                <table bgcolor="#f6f6f6" cellpadding="0" cellspacing="0" width="285">
+                                                  <!-- Spacing -->
+                                                  <tbody>
+                                                    <tr>
+                                                      <td bgcolor="#f6f6f6" height="30px" width="100%"><img alt="Space" height="3" src="http://sendy.asapcompare.com/uploads/spacer.png" width="285"/></td>
+                                                    </tr>
+                                                    <!-- Spacing -->
+                                                  </tbody>
+                                                </table>
+
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <!-- end of left column -->
+
+                                        <!-- start of right column -->
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="285">
+                                          <tbody>
+                                            <tr>
+                                              <td style="padding:0px;">
+
+                                                <!-- start slot 20 -->
+                                                  <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" style="" width="285">
+
+                                                    <!-- START SLOT 20 IMG 285 x 140 -->
+                                                    <tbody>
+                                                      <tr>
+                                                        <td bgcolor="#ffffff" style="position:relative;" width="100%">
+																													<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                          <img alt="SLOT 20" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" style="border-width: 2px; border-style: solid; width: 285px; height: 140px; background-color:#E1E1E1; border-color:#ffffff;"/>
+																												</a>
+
+                                                          <!--Start Slot 20 Value Tag-->
+
+                                                          <!--End Slot 20 Value Tag-->
+                                                        </td>
+                                                      </tr>
+                                                      <!-- End SLOT 20 IMG 285 x 140 -->
+
+                                                      <!-- START SLOT 20 TXT -->
+                                                      <!--Start Slot 20 Description-->
+                                                      <tr>
+                                                        <td align="center" width="100%">
+																													<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                          <span class="box" style="display:block;font-family:Arial;font-size:14px;line-height:30px; text-align:left; padding-left:10px;color:#4b4b4b;">iPad Mini 16GB WiFi</span>
+																												</a>
+                                                        </td>
+                                                      </tr>
+                                                      <!--End Slot 20 Description-->
+
+                                                      <!--Start Slot 20 Price-->
+                                                      <tr>
+                                                        <td align="center" width="100%">
+																													<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                          <span class="box" style="display:block;font-family:Arial;font-size:16px;line-height:10px; text-align:left; padding-left:10px; color:#CD1314; font-weight:bold;">&pound;199.99</span>
+																												</a>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td align="right" width="100%">
+																													<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=ipad+mini&amp;prov=amazon&amp;n=Apple+iPad+Mini+16GB+Wi-Fi+%28White%29&amp;price=207.99&amp;url=aHR0cDovL3d3dy5hbWF6b24uY28udWsvQXBwbGUtaVBhZC1NaW5pLVdpLUZpLVdoaXRlL2RwL0IwMEE2UUE0TU0%2FcHNjPTEmU3Vic2NyaXB0aW9uSWQ9QUtJQUlRV0hINEhSUEs3TFJRVFEmdGFnPWlkZWFsMDMtMjEmbGlua0NvZGU9eG0yJmNhbXA9MjAyNSZjcmVhdGl2ZT0xNjU5NTMmY3JlYXRpdmVBU0lOPUIwMEE2UUE0TU0%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product1&amp;utm_campaign=10112015" target="_blank">
+                                                          <span class="box2" style="background-color:#D01317; font-family:Arial;font-size:12px; line-height:20px; text-align:center; padding-left:5px; padding-right:5px; color:#ffffff; width:80px; align:right;">#1 Best Seller</span>
+																												</a>
+                                                        </td>
+                                                      </tr>
+                                                      <!--END Slot 20 Price-->
+                                                      <!-- END SLOT 20 TXT -->
+
+                                                    </tbody>
+                                                  </table>
+                                                </a>
+
+                                                <table bgcolor="#f6f6f6" cellpadding="0" cellspacing="0" width="285">
+                                                  <!-- Spacing -->
+                                                  <tbody>
+                                                    <tr>
+                                                      <td bgcolor="#f6f6f6" height="30px" width="100%"><img alt="Space" height="3" src="http://sendy.asapcompare.com/uploads/spacer.png" width="285"/></td>
+                                                    </tr>
+                                                    <!-- Spacing -->
+                                                  </tbody>
+                                                </table>
+
+                                                <!--Start Slot 21-->
+                                                  <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" style="" width="285">
+
+                                                    <!-- START SLOT 21 IMG 285 x 140 -->
+                                                    <tbody>
+                                                      <tr>
+                                                        <td bgcolor="#ffffff" style="position:relative;" width="100%">
+																													<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                          <img alt="SLOT 21" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" style="border-width: 2px; border-style: solid; width: 285px; height: 140px; background-color:#E1E1E1; border-color:#ffffff;"/>
+																												</a>
+
+                                                          <!--Start Slot 21 Value Tag-->
+
+                                                          <!--End Slot 21 Value Tag-->
+                                                        </td>
+                                                      </tr>
+                                                      <!-- End SLOT 21 IMG 285 x 140 -->
+
+                                                      <!-- START SLOT 21 TXT -->
+                                                      <!--Start slot 21 Description-->
+                                                      <tr>
+                                                        <td align="center" width="100%">
+																													<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                          <span class="box" style="display:block;font-size:14px;line-height:30px; text-align:left; padding-left:10px; font-family:Arial; color:#4b4b4b;">Samsung Galaxy SIII</span>
+																												</a>
+                                                        </td>
+                                                      </tr>
+
+                                                      <!--Start slot 21 Price-->
+                                                      <tr>
+                                                        <td align="center" width="100%">
+																													<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                          <span class="box" style="display:block;font-size:16px;line-height:10px; text-align:left; padding-left:10px;font-family:Arial; font-weight:bold; color:#CD1314;">&pound;89.99</span>
+																												</a>
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td align="right" width="100%">
+																													<a href="http://www.idealprice.co.uk/product/retailerRedirect.html?keyword=&amp;prov=ebay&amp;n=Samsung+Galaxy+S+III+GT-I9300+-+16+GB+-+Pebble+Blue+%28Unlocked%29+Smartphone&amp;price=89.99&amp;url=aHR0cDovL3JvdmVyLmViYXkuY29tL3JvdmVyLzEvNzEwLTUzNDgxLTE5MjU1LTAvMT9mZjM9MiZ0b29saWQ9MTAwNDEmY2FtcGlkPTUzMzcxMDI4NjMmY3VzdG9taWQ9U2Ftc3VuZzAwMEdhbGF4eTAwMFMwMDBJSUkwMDBHVDAwMEk5MzAwMDAwMDAwMDAwMTYwMDBHQjAwMDAwMDAwMFBlYmJsZTAwMEJsdWUwMDAwMDBVbmxvY2tlZDAwMDAwMFNtYXJ0cGhvbmUmbGdlbz0xJnZlY3RvcmlkPTIyOTUwOCZpdGVtPTM1MTEzNDI4Njg3MA%3D%3D&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Product2&amp;utm_campaign=10112015" target="_blank">
+                                                          <span class="box2" style="background-color:#D01317; font-family:Arial;font-size:12px; line-height:20px; text-align:center; padding-left:5px; padding-right:5px; color:#ffffff; width:80px; align:right;">#1 Best Seller</span>
+																												</a>
+                                                        </td>
+                                                      </tr>
+                                                      <!--END slot 21 Price-->
+                                                      <!-- END SLOT 21 TXT -->
+
+                                                    </tbody>
+                                                  </table>
+                                                </a>
+                                                <!-- end of deal table -->
+
+                                                <table bgcolor="#f6f6f6" cellpadding="0" cellspacing="0" width="285">
+                                                  <!-- Spacing -->
+                                                  <tbody>
+                                                    <tr>
+                                                      <td bgcolor="#f6f6f6" height="30px" width="100%"><img alt="Space" height="3" src="http://sendy.asapcompare.com/uploads/spacer.png" width="285"/></td>
+                                                    </tr>
+                                                    <!-- Spacing -->
+                                                  </tbody>
+                                                </table>
+
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <!-- end of right column -->
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+
+                                <table bgcolor="#F6F6F6" border="0" cellpadding="0" cellspacing="0" id="backgroundTable7" style="font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;" width="100%">
+                                  <tbody>
+                                    <tr>
+                                      <td>
+                                        <table align="center" bgcolor="#f8f8f8" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="600">
+                                          <tbody>
+                                            <tr>
+                                              <td>
+                                                <!-- start of left column -->
+                                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="300">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td style="padding:0px;">
+                                                        <!-- start of deal table -->
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="deviceWidthdouble1" style="border:4px solid #ffffff;background:#ffffff;margin:5px;" width="32%">
+                                                          <tbody>
+                                                            <tr>
+                                                              <td align="center">
+                                                                <a href="http://www.ecompare.co.uk/?utm_source=idealPrice&amp;utm_medium=email&amp;utm_campaign=newsletter" target="_blank"><img alt="###" class="deviceWidthmerch1" src="http://sendy.asapcompare.com/uploads/590340823.jpg" style="display: block; border: 5px solid rgb(255, 255, 255); outline: rgb(238, 238, 238) solid 1px; width: 120px; height: 75px;"/></a>
+                                                              </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td align="center" height="45" style="padding:5px;font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;vertical-align:top;font-size:9px;color:#666666" valign="top">Compare 520 Stores &amp; 34 Million Products for BIG Savings!</td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+
+                                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="deviceWidthdouble1" style="border:4px solid #ffffff;background:#ffffff;margin:5px;" width="32%">
+                                                          <tbody>
+                                                            <tr>
+                                                              <td align="center">
+                                                                <a href="http://www.catwalk.co.uk/?utm_source=idealPrice&amp;utm_medium=email&amp;utm_campaign=newsletter" target="_blank"><img alt="###" class="deviceWidthmerch1" src="http://sendy.asapcompare.com/uploads/66480928.jpg" style="display: block; border: 5px solid rgb(255, 255, 255); outline: rgb(238, 238, 238) solid 1px; width: 120px; height: 75px;"/></a>
+                                                              </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td align="center" height="45" style="padding:5px;vertical-align:top;font-size:9px;color:#666666" valign="top">
+                                                                <a href="http://www.catwalk.co.uk/?utm_source=idealPrice&amp;utm_medium=email&amp;utm_campaign=newsletter" style="color: #666666; text-align:center;text-decoration: none;font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;" target="_blank">Visit Catwalk.co.uk for the Best Deals on all Fashion Items.</a>
+                                                              </td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                                <!-- end of left column -->
+                                                <!-- start of right column -->
+
+                                                <table align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="300">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td style="padding:0px;">
+                                                        <!-- start of deal table -->
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="deviceWidthdouble1" style="border:4px solid #ffffff;background:#ffffff;margin:5px;" width="32%">
+                                                          <tbody>
+                                                            <tr>
+                                                              <td align="center">
+                                                                <a href="http://www.discountvouchers.co.uk/?utm_source=idealPrice&amp;utm_medium=email&amp;utm_campaign=newsletter" target="_blank"><img alt="###" class="deviceWidthmerch1" src="http://sendy.asapcompare.com/uploads/1276505756.png" style="display: block; border: 5px solid rgb(255, 255, 255); outline: rgb(238, 238, 238) solid 1px; width: 120px; height: 75px;"/></a>
+                                                              </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td align="center" height="45" style="padding:5px;vertical-align:top;font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:9px;color:#666666" valign="top">Exclusive Deals and Sales Alerts from your favourite retailers.</td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+
+                                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="deviceWidthdouble1" style="border:4px solid #ffffff;background:#ffffff;margin:5px;" width="32%">
+                                                          <tbody>
+                                                            <tr>
+                                                              <td align="center">
+                                                                <a href="http://pebble.co.uk/?utm_source=idealPrice&amp;utm_medium=email&amp;utm_campaign=newsletter" target="_blank"><img alt="###" class="deviceWidthmerch1" src="http://sendy.asapcompare.com/uploads/2097213876.jpg" style="display: block; border: 5px solid rgb(255, 255, 255); outline: rgb(238, 238, 238) solid 1px; width: 120px; height: 75px;"/></a>
+                                                              </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td align="center" height="45" style="padding:5px;vertical-align:top;font-size:9px;font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;color:#666666" valign="top">Inspiration and Savings on all your Home and Garden needs.</td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                                <!-- end of right column -->
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+
+                                <!-- Start of FOOTER -->
+
+                                <table align="center" bgcolor="#F6F6F6" cellpadding="0" cellspacing="0" width="100%">
+                                  <tbody>
+                                    <tr>
+                                      <td height="92" style="padding:10px 0px">
+                                        <table align="center" bgcolor="#F6F6F6" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="600">
+                                          <tbody>
+                                            <tr>
+                                              <td style="padding:0;" valign="middle">
+
+                                                <!-- Start of LOGO -->
+                                                <table align="left" border="0" cellpadding="0" cellspacing="0" style="font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;" width="300">
+                                                  <tbody>
+                                                    <tr class="devicewidth">
+                                                      <td style="padding:10px;">
+                                                        <span class="center" style="font-size: 10px; color: #4b4b4b; font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; padding-bottom: 20px;display-block:line-height:14px;">
+                                                          <strong style="font-size: 10px; color: #4b4b4b; font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">ASAP COMPARE LIMITED</strong><br/>
+                                                          <strong style="font-size: 10px; color: #4b4b4b; font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">1 The Square, Lightwater, Surrey, GU18 5SS</strong><br/>
+                                                          <strong style="font-size: 10px; color: #4b4b4b; font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">Company No. 07512660</strong><br/>
+                                                          <br/>
+                                                          <br/>
+                                                          <a href="http://www.idealprice.co.uk/site/about.html?utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=About&amp;utm_campaign=10112015" style="font-size: 10px; color: #4b4b4b; font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;" target="_blank" title="About idealPrice">About
+                                                          </a>
+                                                          |
+                                                          <a href="http://www.idealprice.co.uk/site/page.html?view=privacy&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Privacy%20Policy&amp;utm_campaign=10112015" style="font-size: 10px; color: #4b4b4b; font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;" target="_blank" title="Privacy Policy">Privacy</a>
+                                                          |
+                                                          <a href="http://www.idealprice.co.uk/site/contact.html?utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=Contact%20Us&amp;utm_campaign=10112015" style="font-size: 10px; color: #4b4b4b; font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;" target="_blank" title="Contact">Contact</a><br/>
+                                                          <span class="link-footer" title="Unsubscribe">
+                                                            <unsubscribe>Unsubscribe</unsubscribe>
+                                                          </span>
+                                                          |
+                                                          <span class="link-footer" title="Browser">
+                                                            <webversion >Browser View</webversion>
+                                                          </span><br/>
+                                                          <br/>
+                                                          <strong style="font-size: 10px; color: #4b4b4b; font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;">&copy; idealPrice2015</strong>
+                                                        </span>
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                                <!-- End of LOGO -->
+                                                <!-- Start of SOCIALS -->
+
+                                                <table align="right" border="0" cellpadding="0" cellspacing="0" class="socialPadding" width="300">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td align="right">
+                                                        <table cellpadding="0" cellspacing="0" class="devicewidthsocial" style="margin:10px;">
+                                                          <tbody>
+                                                            <tr>
+                                                              <td>
+                                                                <a href="https://play.google.com/store/apps/details?id=com.compare.idealprice&amp;hl=en&amp;utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=GoogleAp&amp;utm_campaign=10112015" target="_blank" title="googleplay"><img alt="googleplay" src="http://sendy.asapcompare.com/uploads/googleplay.png" style="display: block; border: 0px solid; outline: none; text-decoration: none; height: 24px;"/>
+                                                                </a>
+                                                              </td>
+                                                              <td style="font-size:1px; line-height:1px;" width="5"><img alt="Space" src="http://sendy.asapcompare.com/uploads/spacer.png" width="5"/></td>
+                                                              <td>
+                                                                <a href="https://itunes.apple.com/app/id981098122?utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=AppleAp&amp;utm_campaign=10112015" target="_blank" title="appstore"><img alt="appstore" src="http://sendy.asapcompare.com/uploads/appstore.png" style="display: block; border: 0px solid; outline: none; text-decoration: none; height: 24px;"/>
+                                                                </a>
+                                                              </td>
+                                                              <td style="font-size:1px; line-height:1px;" width="5"><img alt="Space" src="http://sendy.asapcompare.com/uploads/spacer.png" width="5"/></td>
+                                                              <td>
+                                                                <a href="https://www.facebook.com/idealprice.co.uk?utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=FacebookFooter&amp;utm_campaign=10112015" target="_blank" title="facebook"><img alt="facebook" src="http://sendy.asapcompare.com/uploads/fb.png" style="display: block; border: 0px solid; outline: none; text-decoration: none; width: 24px; height: 24px;"/>
+                                                                </a>
+                                                              </td>
+                                                              <td style="font-size:1px; line-height:1px;" width="5"><img alt="Space" src="http://sendy.asapcompare.com/uploads/spacer.png" width="5"/></td>
+                                                              <td>
+                                                                <a href="https://twitter.com/idealpriceuk?utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=TwitterFooter&amp;utm_campaign=10112015" target="_blank" title="twitter"><img alt="twitter" src="http://sendy.asapcompare.com/uploads/tw.png" style="display: block; border: 0px solid; outline: none; text-decoration: none; width: 24px; height: 24px;"/>
+                                                                </a>
+                                                              </td>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                                <!-- end of SOCIALS -->
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <!-- Start of FOOTER -->
+
+                                <table bgcolor="#F6F6F6" border="0" cellpadding="0" cellspacing="0" id="backgroundTable4" width="100%">
+                                  <tbody>
+                                    <tr>
+                                      <td>
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="600">
+                                          <tbody>
+                                            <tr>
+                                              <td height="10" width="100%">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                              <td>
+                                                <table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" width="550">
+                                                  <tbody>
+                                                    <!-- title -->
+                                                    <tr>
+                                                      <td align="center">
+                                                        <span style="font-family:'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;display:block;line-height:14px;font-size:10px;color:#4b4b4b;">
+                                                          <strong>Offers Notice</strong><br/>
+                                                          <br/>
+                                                          <a href="http://idealprice.co.uk/?utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=OfferNotice1&amp;utm_campaign=10112015" style="font-weight:400;color:#4b4b4b;" target="_blank">idealPrice.co.uk</a>
+                                                          makes no insurances of guarantees regarding the availability of the offer and special savings featured in this email. These offers are valid at the time the email is mailed. However, the offers may be altered or expire at any time without notice to
+                                                          <a href="http://idealprice.co.uk/?utm_source=IPNL%20Deal&amp;utm_medium=Email&amp;utm_content=OfferNotice2&amp;utm_campaign=10112015" style="font-weight:400;color:#4b4b4b;" target="_blank">idealPrice.co.uk</a>.<br/>
+                                                          <br/>
+                                                          If you no longer wish to receive our newsletters please
+                                                          <span class="link-footer" title="unsubscribe">
+                                                            <unsubscribe>unsubscribe.</unsubscribe>
+                                                          </span>
+                                                        </span>
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td height="20" width="100%">&nbsp;</td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+
+                              </body>
+                            </html>
