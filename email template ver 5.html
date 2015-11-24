@@ -1,73 +1,225 @@
 <html>
   <head><meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <title>idealPrice</title>
 
     <style type="text/css">
-      /* Client-specific Styles */
-      #outlook a {
-        padding: 0;
-      }
-      /* Force Outlook to provide a "view in browser" menu link. */
-      body {
-        width: 100% !important;
-        -webkit-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;
-        margin: 0;
-        padding: 0;
-        background-color: #f6f6f6;
-				font-family: Arial;
-      }
-      /* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
-      .ExternalClass {
-        width: 100%;
-      }
-      /* Force Hotmail to display emails at full width */
-      .ExternalClass,
-      .ExternalClass p,
-      .ExternalClass span,
-      .ExternalClass font,
-      .ExternalClass td,
-      .ExternalClass div {
-        line-height: 100%;
-      }
-      /* Force Hotmail to display normal line spacing.  */
-      #backgroundTable {
-        margin: 0;
-        padding: 0;
-        width: 100% !important;
-        line-height: 100% !important;
-      }
-        .socialPadding {
-          padding: 10px 30px 0 0;
-        }
-        img[class=logo] {
-          width: 130px!important;
-        }
-        img {
-          display: block;
-        }
-      }
-      .link-header,
-      .link-header a {
-        font-weight: 400;
-        color: #4b4b4b;
+    /* Client-specific Styles */
+    #outlook a {
+      padding: 0;
+    }
+    /* Force Outlook to provide a "view in browser" menu link. */
+    body {
+      width: 100% !important;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      margin: 0;
+      padding: 0;
+      background-color: #F6F6F6;
+      font-family: Arial;
+    }
+    /* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
+    .ExternalClass {
+      width: 100%;
+    }
+    /* Force Hotmail to display emails at full width */
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+      line-height: 100%;
+    }
+    /* Force Hotmail to display normal line spacing.  */
+    #backgroundTable {
+      margin: 0;
+      padding: 0;
+      width: 100% !important;
+      line-height: 100% !important;
+    }
+    img {
+      outline: none;
+      text-decoration: none;
+      border: none;
+      -ms-interpolation-mode: bicubic;
+    }
+    a img {
+      border: none;
+    }
+    .image_fix {
+      display: block;
+    }
+    p {
+      margin-bottom: 0;
+      margin: 0 !important;
+    }
+    table td {
+      border-collapse: collapse;
+    }
+    table {
+      mso-table-lspace: 0;
+      mso-table-rspace: 0;
+    }
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      text-decoration: none!important;
+    }
+    /*STYLES*/
+    table[class=full] {
+      width: 100%;
+      clear: both;
+    }
+    .deviceWidthdouble {
+      width: 130px!important;
+      padding: 0;
+    }
+    .deviceWidthmerch {
+      width: 120px!important;
+      padding: 0;
+    }
+    .deviceWidthdouble1 {
+      width: 130px!important;
+      padding: 0;
+    }
+    .deviceWidthdouble1 {
+      width: 130px!important;
+      padding: 0;
+    }
+    .deviceWidthmerch1 {
+      width: 120px!important;
+      padding: 0;
+    }
+    .deviceWidthmerch2 {
+      width: 120px!important;
+      padding: 0;
+    }
+    .deviceWidthmerch2 {
+      width: 120px!important;
+      padding: 0;
+    }
+    .deviceWidthmerch11 {
+      width: 120px!important;
+      padding: 0;
+    }
+    .deviceWidthmerch11 {
+      width: 120px!important;
+      padding: 0;
+    }
+    .socialPadding {
+      padding: 10px;
+    }
+    img {
+      display: block;
+    }
+    .box {
+      display: block;
+      line-height: -1px;
+    }
+    .box2 {
+      display: block;
+      align: right;
+    }
+
+    /*IPHONE STYLES*/
+    @media only screen and (max-width: 480px) {
+      a[href^="tel"],
+      a[href^="sms"] {
         text-decoration: none;
-        width:auto;
+        color: #ffffff;
+        /* or whatever your want */
+        pointer-events: none;
+        cursor: default;
       }
-      .link-footer,
-      .link-footer a {
-        font-size: 10px;
-        color: #4b4b4b;
-        font-family: 'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      .mobile_link a[href^="tel"],
+      .mobile_link a[href^="sms"] {
+        text-decoration: default;
+        color: #ffffff !important;
+        pointer-events: auto;
+        cursor: default;
       }
-      .preheader {
-        display: none !important;
-        visibility: hidden;
-        opacity: 0;
-        color: transparent;
-        height: 0;
-        width: 0;
+      table[class=devicewidth] {
+        width: 300px!important;
+        text-align: center!important;
       }
+      table[class=devicewidthnarrow] {
+        width: 280px!important;
+        text-align: center!important;
+      }
+      table[class=devicewidthsocial] {
+        width: 220px!important;
+        text-align: center!important;
+        margin: 0 30px;
+      }
+      td[class=devicewidth] {
+        width: 280px!important;
+        text-align: center!important;
+      }
+      img[class=devicewidth] {
+        width: 280px!important;
+        text-align: center!important;
+      }
+      img[class=banner] {
+        width: 300px!important;
+        height: 80px!important;
+      }
+      table[class=devicewidthinner] {
+        width: 260px!important;
+        text-align: center!important;
+      }
+      table[class=icontext] {
+        width: 186px!important;
+        text-align: center!important;
+      }
+      img[class=colimg3] {
+        width: 260px!important;
+        height: 345px!important;
+      }
+      img[class=colimg3-sq] {
+        width: 260px!important;
+        height: 260px!important;
+      }
+      img[class=colimg2] {
+        width: 280px!important;
+        height: 187px!important;
+      }
+      table[class=emhide] {
+        display: none!important;
+      }
+      tr[class=emhide] {
+        display: none!important;
+      }
+      .socialPadding {
+        padding: 10px 30px 0 0;
+      }
+      img[class=logo] {
+        width: 130px!important;
+      }
+      img {
+        display: block;
+      }
+    }
+    .link-header,
+    .link-header a {
+      font-weight: 400;
+      color: #4b4b4b;
+      text-decoration: none;
+    }
+    .link-footer,
+    .link-footer a {
+      font-size: 10px;
+      color: #4b4b4b;
+      font-family: 'Century Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    .preheader {
+      display: none !important;
+      visibility: hidden;
+      opacity: 0;
+      color: transparent;
+      height: 0;
+      width: 0;
+    }
 
       .left-column-container, .right-column-container{
         width: 300px;
@@ -143,18 +295,12 @@
         width: 120px!important;
         padding: 0;
       }
-      @media only screen and (max-width: 600px) {
-        .footer-div-left, .footer-div-right {
 
-          text-align: center;
-        }
-      }
 
       @media only screen and (max-width: 600px) {
         .container, .footer-container, .footer-div-left, .footer-div-right, .left-table-container, .right-table-container, .title-container{
           width: 300px !important;
           text-align: center;
-
       }
       }
 
