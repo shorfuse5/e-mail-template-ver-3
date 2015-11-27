@@ -172,6 +172,39 @@
       padding-top: 10px;
     }
 
+    .two-column-title{
+      text-align: center;
+      font-size: 0;
+    }
+    .two-column-title .column{
+      width: 100%;
+      max-width: 300px;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .two-column-title .contents{
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .two-column-title img{
+      width: 100%;
+      max-width: 300px;
+      height: 250px;
+      display: inline-block;
+    }
+
+    .two-column-title .text{
+      padding: 5px;
+      text-align: center;
+      background-color: #fff;
+    }
+    .two-column-title .inner{
+      padding: 0;
+      margin: 0;
+    }
+
     /*Three column layout*/
     .three-column{
       text-align: center;
@@ -293,6 +326,12 @@
       }
       .three-column .column{
         max-width: 70% !important;
+      }
+      .two-column-title .column{
+        max-width: 100% !important;
+      }
+      .two-column-title img{
+        max-width: 100% !important;
       }
     }
 
@@ -449,6 +488,57 @@
                   </table>
                 </td>
               </tr>
+
+              <!--two column title image-->
+              <tr>
+                <td class="two-column-title">
+                  <!--[if (gte mso 9)|(IE)]>
+                  <table width="100%">
+                  <tr>
+                  <td width="50%" valign="top">
+                  <![endif]-->
+                  <div class="column">
+                    <table width="100%">
+                      <tr>
+                        <td class="inner">
+                          <table class="contents">
+                            <tr>
+                              <td>
+                                <img src="http://sendy.asapcompare.com/uploads/1447147355.jpg" width="280" alt="" />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!--[if (gte mso 9)|(IE)]>
+                  </td><td width="50%" valign="top">
+                  <![endif]-->
+                  <div class="column">
+                    <table width="100%">
+                      <tr>
+                        <td class="inner">
+                          <table class="contents">
+                            <tr>
+                              <td>
+                                <img src="http://sendy.asapcompare.com/uploads/1447147355.jpg" width="280" alt="" />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!--[if (gte mso 9)|(IE)]>
+                  </td>
+                  </tr>
+                  </table>
+                  <![endif]-->
+                </td>
+              </tr>
+
+
 
               <!--two-column-->
               <tr>
