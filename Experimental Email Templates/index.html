@@ -65,13 +65,13 @@
       width: 100%;
     }
     .logo-image{
-      width: 130px !important;
+      width: 280px !important;
       display: inline-block;
     }
     .socials{
       width: 24px;
-      padding-left: 20px;
-      padding-right: 20px;
+      padding-left: 5px;
+      padding-right: 5px;
     }
     .full-width-image img{
       width: 100%;
@@ -81,11 +81,22 @@
     .inner {
       padding: 10px;
     }
+    .socials-inner {
+      padding: 10px;
+    }
+    .view-inner{
+      padding: 10px;
+    }
+    .view-inner .view-contents{
+      width: 100%;
+      font-size: 14px;
+      text-align: left;
+    }
     .view-inner-contents{
       padding: 0;
       text-align: center;
-      background-color: white;
     }
+
     p{
       margin: 0;
       padding: 0;
@@ -137,7 +148,6 @@
     }
     .two-column-header .column{
       width: 100%;
-      max-width: 300px;
       display: inline-block;
       vertical-align: top;
     }
@@ -333,14 +343,23 @@
       .two-column-title img{
         max-width: 100% !important;
       }
+      .title-snippet span{
+        max-width: 100% !important;
+      }
     }
 
-    @media screen and (min-width: 401px) and (max-width: 620px){
+    @media screen and (min-width: 401px) and (max-width: 600px){
       .three-column .column{
         max-width: 33% !important;
       }
       .two-column .column{
         max-width: 50% !important;
+      }
+      .two-column-title .column{
+        max-width: 100% !important;
+      }
+      .two-column-title img{
+        max-width: 100% !important;
       }
     }
 
@@ -368,6 +387,13 @@
       color: white;
     }
 
+    .title-snippet{
+      display: inline-block;
+      min-width: 300px;
+      height: 250px;
+      background-color: yellow;
+    }
+
     </style>
     <!--[if (gte mso 9)|(IE)]>
     <style type="text/css">
@@ -385,22 +411,74 @@
             <![endif]-->
             <table class="outer" align="center">
               <tr>
-                <td class="header-bar">
+                <td class="two-column">
+                  <!--[if (gte mso 9)|(IE)]>
+                  <table width="100%">
+                  <tr>
+                  <td width="50%" valign="top">
+                  <![endif]-->
+                  <div class="column">
+                    <table width="100%">
+                      <tr>
+                        <td class="view-inner">
+                          <table class="view-contents">
+                            <tr>
+                              <td>
+                                <td class="view-inner-contents">
+                                  <span style="font-family: Arial; font-size: 10px; margin: 0; text-align: center;">
+                                    <span style="font-weight: 400; color: #4b4b4b; text-decoration: none; margin: 0;" title="browser">
+                                      <webversion style="color: #4b4b4b; text-decoration: none;">View message in a browser</webversion>
+                                    </span>
+                                  </span>
+                                </td>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!--[if (gte mso 9)|(IE)]>
+                  </td><td width="50%" valign="top">
+                  <![endif]-->
+                  <div class="column">
+                    <table width="100%">
+                      <tr>
+                        <td class="socials-inner" align="center">
+                          <table class="socials-contents" style="width: 135px; text-align: right;">
+                            <tr>
+                              <td class="socials">
+                                <img alt="GooglePlay" src="http://sendy.asapcompare.com/uploads/gplay.png" style="display: block; outline: none; text-decoration: none; width: 24px; height: 24px; -ms-interpolation-mode: bicubic; border: 0px solid;" />
+                              </td>
+                              <td class="socials">
+                                <img alt="Appstore" src="http://sendy.asapcompare.com/uploads/astore.png" style="display: block; outline: none; text-decoration: none; width: 24px; height: 24px; -ms-interpolation-mode: bicubic; border: 0px solid;" />
+                              </td>
+                              <td class="socials">
+                                <img alt="facebook" src="http://sendy.asapcompare.com/uploads/fb.png" style="display: block; outline: none; text-decoration: none; width: 24px; height: 24px; -ms-interpolation-mode: bicubic; border: 0px solid;" />
+                              </td>
+                              <td class="socials">
+                                <img alt="twitter" src="http://sendy.asapcompare.com/uploads/tw.png" style="display: block; outline: none; text-decoration: none; width: 24px; height: 24px; -ms-interpolation-mode: bicubic; border: 0px solid;" />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!--[if (gte mso 9)|(IE)]>
+                  </td>
+                  </tr>
+                  </table>
+                  <![endif]-->
                 </td>
               </tr>
+
+
+
+
+
               <tr>
-                <td class="one-column">
-                  <table width="100%">
-                    <tr>
-                      <td class="view-inner-contents">
-                        <span style="font-family: Arial; font-size: 10px; margin: 0; text-align: center;">
-                          <span style="font-weight: 400; color: #4b4b4b; text-decoration: none; margin: 0;" title="browser">
-                            <webversion style="color: #4b4b4b; text-decoration: none;">View message in a browser</webversion>
-                          </span>
-                        </span>
-                      </td>
-                    </tr>
-                  </table>
+                <td class="header-bar">
                 </td>
               </tr>
               <tr>
@@ -420,7 +498,7 @@
                                 <table class="contents" style="text-align: center;">
                                   <tr>
                                     <td>
-                                      <img class="logo-image" src="http://sendy.asapcompare.com/uploads/logo-old.png" width="130" alt="logo"/>
+                                      <img class="logo-image" src="http://sendy.asapcompare.com/uploads/logo-old.png" width="280" alt="logo"/>
                                     </td>
                                   </tr>
                                 </table>
@@ -431,30 +509,6 @@
                         <!--[if (gte mso 9)|(IE)]>
                         </td><td width="50%" valign="top">
                         <![endif]-->
-                        <div class="column" style="vertical-align: top; text-align: center;">
-                          <table width="100%" style="padding-top: 5px;">
-                            <tr>
-                              <td class="inner">
-                                <table class="contents" style="text-align: center;">
-                                  <tr>
-                                    <td class="socials">
-                                      <img alt="GooglePlay" src="http://sendy.asapcompare.com/uploads/gplay.png" style="display: block; outline: none; text-decoration: none; width: 24px; height: 24px; -ms-interpolation-mode: bicubic; border: 0px solid;" />
-                                    </td>
-                                    <td class="socials">
-                                      <img alt="Appstore" src="http://sendy.asapcompare.com/uploads/astore.png" style="display: block; outline: none; text-decoration: none; width: 24px; height: 24px; -ms-interpolation-mode: bicubic; border: 0px solid;" />
-                                    </td>
-                                    <td class="socials">
-                                      <img alt="facebook" src="http://sendy.asapcompare.com/uploads/fb.png" style="display: block; outline: none; text-decoration: none; width: 24px; height: 24px; -ms-interpolation-mode: bicubic; border: 0px solid;" />
-                                    </td>
-                                    <td class="socials">
-                                      <img alt="twitter" src="http://sendy.asapcompare.com/uploads/tw.png" style="display: block; outline: none; text-decoration: none; width: 24px; height: 24px; -ms-interpolation-mode: bicubic; border: 0px solid;" />
-                                    </td>
-                                  </tr>
-                                </table>
-                              </td>
-                            </tr>
-                          </table>
-                        </div>
                         <!--[if (gte mso 9)|(IE)]>
                         </td>
                         </tr>
@@ -522,7 +576,10 @@
                           <table class="contents">
                             <tr>
                               <td>
-                                <img src="http://sendy.asapcompare.com/uploads/1447147355.jpg" width="280" alt="" />
+                                <span class="title-snippet"><p class="h1" style="text-align: center; padding-top: 70px; padding-left: 40px; padding-right: 40px;">Deals of the Week - Save up to 80%</p>
+                                <p style="padding-left: 30px; padding-right: 30px;">
+                                  We love to bring you the best of the sales or items at great value. Dont miss out this week!
+                                </p></span>
                               </td>
                             </tr>
                           </table>
@@ -686,6 +743,125 @@
                   <![endif]-->
                 </td>
               </tr>
+
+
+              <!--two column-->
+              <tr>
+                <td class="two-column">
+                  <!--[if (gte mso 9)|(IE)]>
+                  <table width="100%">
+                  <tr>
+                  <td width="50%" valign="top">
+                  <![endif]-->
+                  <div class="column" style="max-width: 264px;">
+                    <table width="100%">
+                      <tr>
+                        <td class="inner">
+                          <table class="contents">
+                            <tr>
+                              <td>
+                                <img style="height: 160px" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" width="280" alt="" />
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="text">
+                                Apple iPad Mini 16GB WiFi 7.9"
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!--[if (gte mso 9)|(IE)]>
+                  </td><td width="50%" valign="top">
+                  <![endif]-->
+                  <div class="column" style="max-width: 264px;">
+                    <table width="100%">
+                      <tr>
+                        <td class="inner">
+                          <table class="contents">
+                            <tr>
+                              <td>
+                                <img style="height: 160px" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" width="280" alt="" />
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="text">
+                                Apple iPad Mini 16GB WiFi 7.9"
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!--[if (gte mso 9)|(IE)]>
+                  </td>
+                  </tr>
+                  </table>
+                  <![endif]-->
+                </td>
+              </tr>
+              <!--two column-->
+              <tr>
+                <td class="two-column">
+                  <!--[if (gte mso 9)|(IE)]>
+                  <table width="100%">
+                  <tr>
+                  <td width="50%" valign="top">
+                  <![endif]-->
+                  <div class="column" style="max-width: 264px;">
+                    <table width="100%">
+                      <tr>
+                        <td class="inner">
+                          <table class="contents">
+                            <tr>
+                              <td>
+                                <img style="height: 160px" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" width="280" alt="" />
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="text">
+                                Apple iPad Mini 16GB WiFi 7.9"
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!--[if (gte mso 9)|(IE)]>
+                  </td><td width="50%" valign="top">
+                  <![endif]-->
+                  <div class="column" style="max-width: 264px;">
+                    <table width="100%">
+                      <tr>
+                        <td class="inner">
+                          <table class="contents">
+                            <tr>
+                              <td>
+                                <img style="height: 160px" src="http://sendy.asapcompare.com/uploads/1447147355.jpg" width="280" alt="" />
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="text">
+                                Apple iPad Mini 16GB WiFi 7.9"
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!--[if (gte mso 9)|(IE)]>
+                  </td>
+                  </tr>
+                  </table>
+                  <![endif]-->
+                </td>
+              </tr>
+
 
 
               <!--three column-->
@@ -941,7 +1117,7 @@
                             </tr>
                             <tr>
                               <td class="text">
-                                Visit Catwalk.co.uk for the Best Deals on all Fashion Items.
+                                Visit <span class="appleLinks">Catwalk.co.uk</span> for the Best Deals on all Fashion Items.
                               </td>
                             </tr>
                           </table>
